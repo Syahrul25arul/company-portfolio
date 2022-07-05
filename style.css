@@ -122,3 +122,58 @@ nav ul li a:hover {
     color: gray;
     cursor: pointer;
 }
+
+.content {
+    margin-top: 50px;
+    height: 600px;
+}
+
+.content h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 30px;
+    color: #778899;
+    text-shadow: -1px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.content-body {
+    display: flex;
+}
+
+.content-card {
+    /* height: fit-content; */
+    margin: 0 5px;
+}
+
+.content-card-img {
+    width: 100%;
+}
+
+.content-card img {
+    object-fit: contain;
+    width: 100%;
+    /* background-color: #7FFFD4; */
+}
+
+.content-card-text {
+    background-color: #1188eabf;
+    margin-top: -4px;
+    padding: 0 7px;
+    border-radius: 5px;
+}
+
+.content-card-text h1 {
+    padding-top: 5px;
+    color: #DCDCDC;
+}
+
+.content-card-text p {
+    text-align: center;
+    margin-top: -10px;
+    padding-bottom: 8px;
+    font-family: "Lexend", cursive;
+    color: #E0FFFF;
+    font-size: 15px;
+    font-weight: 400;
+}
