@@ -247,5 +247,11 @@ footer {
 .contact__info-list a i {
     font-size: 20px;
     margin-right: 5px;
+    transition: .5s;
+}
+
+.contact__info-list i:hover  {
+    color: red;
+    transform: scale(1.3);
 }
 
