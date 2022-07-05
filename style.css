@@ -177,3 +177,75 @@ nav ul li a:hover {
     font-size: 15px;
     font-weight: 400;
 }
+
+footer {
+    height: 200px;
+    background-color: #000;
+    display: flex;
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    /* align-items: center; */
+}
+
+.logo-footer {
+    width: 200px;
+    object-fit: contain;
+    margin-top: -80px;
+    filter: brightness(100);
+}
+
+.head-office {
+    width: 400px;
+    margin-top: 20px;
+}
+
+.head-office h1 {
+    margin-bottom: 5px;
+    font-family: 'Fira Sans', sans-serif;
+    opacity: .8;
+}
+
+.head-office p {
+    font-family: "Lexend", cursive;
+    opacity: 0.6;
+}
+
+.social-media {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.social-media h1 {
+    font-family: 'Fira Sans', sans-serif;
+    opacity: 0.6;
+}
+
+.contact-card {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.contact__info-list a, 
+.contact__info-list span,
+.contact__info-title {
+    font-family: "Lexend", cursive;
+    opacity: 0.6;
+}
+
+.contact__info-title {
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.contact__info-list a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact__info-list a i {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
